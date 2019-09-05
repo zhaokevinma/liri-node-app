@@ -7,6 +7,9 @@ var movieApp = require("./movieApp.js");
 // To require spotifyApp function from movieApp.js
 var spotifyApp = require("./spotifyApp.js");
 
+// To require bandsInTownApp function from movieApp.js
+var bandsInTownApp = require("./bandsInTownApp.js");
+
 // To store userCommand
 var userCommand = process.argv[2];
 
@@ -28,6 +31,9 @@ switch (userCommand) {
         break;
     case "spotify-this-song":
         spotifyApp(userInput);
+        break;
+    case "concert-this":
+        bandsInTownApp(userInput);
         break;
     default:
         console.log("Please type 'node liri.js help' for instructions");

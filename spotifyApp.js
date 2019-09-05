@@ -17,10 +17,12 @@ function spotifyApp(userInput) {
             if (err) {
                 return console.log('Error occurred: ' + err);
             } else {
-            console.log("\n---------------------\nSong Name: " + data.tracks.items[0].name);
-            console.log("Artist(s) Name: "+ data.tracks.items[0].artists[0].name);
-            console.log("Album Name: "+ data.tracks.items[0].album.name);
-            console.log("Preview URL: " + data.tracks.items[0].preview_url+"\n---------------\n");
+                console.log("--------------------------\n");
+                console.log("Song Name: " + data.tracks.items[0].name);
+                console.log("Artist(s) Name: "+ data.tracks.items[0].artists[0].name);
+                console.log("Album Name: "+ data.tracks.items[0].album.name);
+                console.log("Preview URL: " + data.tracks.items[0].preview_url);
+                console.log("\n--------------------------\n");
             }
         });
     }
