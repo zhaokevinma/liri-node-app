@@ -16,4 +16,4 @@ liri.js can take in one of the following commands:
 
 See a demo here: 
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/5JIycY_7DKQ)
+[![Watch the video](https://img.youtube.com/vi/5JIycY_7DKQ/maxresdefault.jpg)](https://youtu.be/5JIycY_7DKQ)
